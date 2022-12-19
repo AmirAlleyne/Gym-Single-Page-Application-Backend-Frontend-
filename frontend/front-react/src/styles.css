@@ -1,0 +1,36 @@
+/*@import url('');*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Arial Black", monospace;
+  }
+  
+  .topBar {
+    background: linear-gradient( 90deg, hsla(46, 95%, 56%, 1) 0%,
+    hsla(350, 97%, 65%, 1) 100%);
+    text-decoration: none;
+    color: black;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  .site-title {
+    margin-left: 2%;
+    margin-right: auto;
+  }
+
+  .nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    align-content: center;
+  }
+
